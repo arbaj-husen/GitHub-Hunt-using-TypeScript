@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Github Hunt</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div class="heading-section">
+				<div class="header">Github Hunt</div>
+				<div class="mode">
+					<span id="modeName">LIGHT</span>
+					<img
+						id="modeImage"
+						src="./assets/sun-icon.svg"
+						width="20px"
+						height="20px" />
+				</div>
+			</div>
+			<!-- github username section -->
+			<form class="username-section">
+				<img src="./assets/search-icon.svg" alt="" />
+				<input
+					type="search"
+					id="username"
+					placeholder="Enter a Github username..." />
+				<button type="submit" class="search-btn">Search</button>
+				<div class="no-result">No Result Found</div>
+			</form>
+
+			<!-- User Details Section -->
+			<div class="user-details">
+				<div class="user-info">
+					<img class="user-img" src="./assets/myphoto.png" />
+					<div class="info-details">
+						<div class="user-name">Arbaj Husen</div>
+						<a
+							href=""
+							target="_blank"
+							class="user-username"
+							>@arbaj-husen</a
+						>
+						<div class="user-joining-date">Joined 5 May 2024</div>
+					</div>
+				</div>
+
+				<p class="user-desc">internet craftsman</p>
+				<div class="profile-details">
+
+					<!-- Followers section -->
+					<div class="followers-section">
+						<div class="follow">
+							<div class="contri">Repos</div>
+							<div class="repos-count contribution">5</div>
+						</div>
+						<div class="follow">
+							<div class="contri">Followers</div>
+							<div class="followers-count contribution">100</div>
+						</div>
+						<div class="follow">
+							<div class="contri">Following</div>
+							<div class="following-count contribution">100</div>
+						</div>
+					</div>
+
+					<!-- social medias -->
+					<div class="social-media">
+						<div class="soci" location-div>
+							<img
+								class="soci-icon"
+								src="./assets/location-icon.svg"
+								width="30px"
+								height="30px" />
+							<div class="soci-div" user-location>Gurugram, India</div>
+						</div>
+						<div class="soci" blog-div>
+							<img
+								class="soci-icon"
+								src="./assets/website-icon.svg"
+								alt=""
+								width="30px"
+								height="30px" />
+							<a class="soci-div"  user-blog href="#">https://pranaygupta.in</a>
+						</div>
+						<div class="soci" twitter-div>
+							<img
+								class="soci-icon"
+								src="./assets/twitter-icon.svg"
+								alt=""
+								width="30px"
+								height="30px" />
+							<a class="soci-div" user-twitter href="#">thepranaygupta</a>
+						</div>
+						<div class="soci" company-div>
+							<img
+								class="soci-icon"
+								src="./assets/company-icon.svg"
+								alt=""
+								width="30px"
+								height="30px" />
+							<div class="soci-div" user-company>Google</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./app.js"></script>
+	</body>
+</html>
